@@ -1,0 +1,16 @@
+<div>
+    <span class="font-weight-bolder font-monospace">{{ record.ticker }}</span> {% if record.location %}<span class="font-weight-light font-italic">{{ record.location }}</span>{% endif %}
+</div>
+<div>
+    {{ record.name }}
+</div>
+{% if record.secfilings %}
+<div class="m-1">
+    <a href="{{ record.secfilings }}" class="font-weight-light badge badge-light">SEC Filings</a>
+</div>
+{% endif %}
+{% if record.companysite %}
+<div class="m-1">
+    <a href="{{ record.companysite }}" class="font-weight-light badge badge-light">Company Site</a>
+</div>
+{% endif %}
