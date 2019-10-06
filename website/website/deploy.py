@@ -9,7 +9,7 @@ from website.settings import *  # noqa: F403
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["*"]
 
 DATABASES["default"] = dj_database_url.config(conn_max_age=600)  # noqa: F405
 
