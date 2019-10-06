@@ -40,7 +40,7 @@ WORKDIR /code/
 ADD . /code/
 
 # uWSGI will listen on this port
-EXPOSE 8000
+EXPOSE 80
 
 # Add any static environment variables needed by Django or your settings file here:
 ENV DJANGO_SETTINGS_MODULE=website.deploy
