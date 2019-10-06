@@ -85,6 +85,7 @@ DATABASES = {
         "USER": "django",
         "HOST": "208.97.141.39",
         "PORT": "5432",
+        "PASSWORD": os.environ.get("EQUITIES_POSTGRES_PASSWORD"),
         "CONN_MAX_AGE": 1,
     }
 }
