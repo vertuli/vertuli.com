@@ -1,17 +1,17 @@
 <html>
     <head>
         <title>Michael Francis Vertuli</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
         <script src="https://kit.fontawesome.com/647d8dbbf2.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div>
             <h1>Michael Francis Vertuli</h1>
-            <img alt="Michael Francis Vertuli" src="vertuli.jpeg" id="headshot"/>
-            <p>Data Engineer</p>
-            <p>Los Angeles, CA, USA</p>
+	    <img alt="Michael Francis Vertuli" src="{{ url_for('static', filename='headshot.jpeg') }}" id="headshot"/>
             <p><i class="fas fa-envelope"></i> <a href="mailto:michael@vertuli.com">michael@vertuli.com</a></p>
             <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/vertuli/">LinkedIn</a></p>
+	    <p><i class="fab fa-github"></i> <a href="https://github.com/vertuli/">GitHub</a></p>
+	    <p><i class="far fa-file"></i> Resume (<a href="https://raw.githubusercontent.com/vertuli/resume/master/resume.json">JSON</a>, <a href="https://htmlpreview.github.io/?https://github.com/vertuli/resume/master/resume.html">HTML</a>, <a href="https://github.com/vertuli/resume/raw/master/resume.pdf">PDF</a>)</p>
         </div>
     </body>
 </html>
