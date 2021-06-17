@@ -7,6 +7,10 @@ application = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@application.route('/leetcode')
+def leetcode():
+    return render_template('leetcode.html')
+
 
 if __name__ == "__main__":
     application.debug = True
