@@ -1,7 +1,9 @@
 body {
-    background-color: lightsteelblue
+    background-color: white
 }
 
 #headshot {
-    width: 150px
+    width: 300px;
+		float: left;
+		padding: 0 20px 20px 0;
 }
