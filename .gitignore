@@ -110,3 +110,10 @@ venv.bak/
 
 # PyCharm
 .idea
+
+# Claude Code
+CLAUDE.md
+.claude/
+
+# macOS
+.DS_Store
