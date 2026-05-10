@@ -1,1 +1,1 @@
-web: gunicorn --bind :8080 --workers 1 application:application
+web: gunicorn --bind 127.0.0.1:8000 --workers 1 application:application
